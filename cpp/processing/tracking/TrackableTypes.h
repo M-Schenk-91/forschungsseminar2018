@@ -1,0 +1,14 @@
+
+#ifndef MTT_TRACKABLETYPES_H
+#define MTT_TRACKABLETYPES_H
+
+enum TrackableTypes
+{
+    PHYSICAL_DOCUMENT = 1,
+    TANGIBLE = 2,
+    HAND = 3,
+    TOUCH = 4,
+    NUM_TRACKABLE_TYPES_ITEMS = 4
+};
+
+#endif //MTT_TRACKABLETYPES_H
